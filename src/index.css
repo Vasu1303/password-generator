@@ -1,0 +1,28 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000000;
+}
+@font-face {
+  font-family: "Regular";
+  src: local("VT323-Regular")
+  url("./assets/fonts/VT323-Regular.ttf") format("truetype");
+}
+
+
+
+
+.custom-button {
+  background-color: #fff;
+  color: black;
+  padding: 6px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+.custom-button:hover {
+  background-color: #e5e7eb; /* Tailwind's gray-200 */
+  color: #3b82f6; /* Tailwind's blue-500 */
+}
